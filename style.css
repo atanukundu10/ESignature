@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+h5{
+    text-align: center;
+    padding-top: 5px;
+    color: rgb(147, 139, 139);
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top, .buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+p{
+    font-weight: 500;
+}
+
+.text-box, input, select, button{
+    width: 85%;
+    padding: 0px 5px;
+    text-align: center;
+}
+
+
+button{
+    margin: 10px;
+}
+
+.canvas{
+    border: 2px solid black;
+}
